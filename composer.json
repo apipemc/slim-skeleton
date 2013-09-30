@@ -18,8 +18,7 @@
 		"php" : ">= 5.3",
 		"slim/slim" : "2.*",
 		"j4mie/idiorm" : "1.*",
-		"petebrowne/slim-layout-view": "0.*",
-		"apipemc/slim-skeleton": "dev-master"
+		"petebrowne/slim-layout-view": "0.*"
 	},
 	"config": {
 		"preferred-install": "dev"
