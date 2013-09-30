@@ -23,5 +23,9 @@
 	},
 	"autoload": {
 		"classmap": ["app/routes/"]
-	}
+	},
+	"config": {
+		"preferred-install": "dist"
+	},
+	"minimum-stability": "dev"
 }
