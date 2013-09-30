@@ -1,0 +1,26 @@
+{
+	"name" : "ApipeMc/slim-skeleton",
+	"description" : "",
+	"version" : "0.1",
+	"keywords" : ["slim", "skeleton", "idiorm", "view", "layout"],
+	"license" : "MIT",
+	"homepage" : "http://stickscode.com/",
+	"support" : {
+		"issues" : "https://github.com/ApipeMc/slim-skeleton/issues",
+		"source" : "https://github.com/ApipeMc/slim-skeleton"
+	},
+	"authors" : [{
+		"name"  : "Andres Felipe Martinez Cordero",
+		"email" : "andrepipemc@gmail.com",
+		"role"  : "Developer"
+	}],
+	"require" : {
+		"php" : ">= 5.3",
+		"slim/slim" : "2.*",
+		"j4mie/idiorm" : "1.*",
+		"petebrowne/slim-layout-view": "0.*"
+	},
+	"autoload": {
+		"classmap": ["app/routes/"]
+	}
+}
