@@ -1,5 +1,5 @@
 {
-	"name" : "ApipeMc/slim-skeleton",
+	"name" : "apipemc/slim-skeleton",
 	"description" : "",
 	"version" : "0.1",
 	"keywords" : ["slim", "skeleton", "idiorm", "view", "layout"],
