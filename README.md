@@ -10,3 +10,8 @@ Documentacion dependecias
 **LAYOUT :**  https://github.com/petebrowne/slim-layout-view/tree/v0.2.1
 
 **ORM :**  http://idiorm.readthedocs.org/en/latest/
+
+
+##Create project composer
+
+`composer create-project apipemc/slim-skeleton --stability=dev project-name`
