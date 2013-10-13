@@ -1,11 +1,13 @@
 <?php
+session_start();
+
 \Slim\Slim::registerAutoloader();
 
-$app = new \Slim\Slim(array('mode' 			 => 'development',
-							'view' 			 => '\Slim\LayoutView',
-							'templates.path' => dirname(__DIR__).'/views',
-							'layout' 		 => 'layouts/layout.php'
-							));
+$app = new \Slim\Slim(array('mode' => 'development',
+			    'view' => '\Slim\LayoutView',
+			    'templates.path' => dirname(__DIR__).'/views',
+			    'layout' => 'layouts/layout.php'
+			));
 
 // Only invoked if mode is "production"
 $app->configureMode('production', function () use ($app) {
@@ -25,14 +27,12 @@ $app->configureMode('development', function () use ($app) {
     ));
 });
 
-/* Register Routes */
-if ($handle = opendir(dirname(__DIR__).'/routes/')) {
-    while (false !== ($entry = readdir($handle))) {
-        if ($entry != "." && $entry != "..") {
-            require  dirname(__DIR__).'/routes/'.$entry;
-        }
-    }
-    closedir($handle);
+/**
+ * Require all routes
+ */
+$filename='';
+foreach (glob(dirname(__DIR__)."/routes/*.php") as $filename) {
+    require $filename;
 }
 
 $app->run(); 
