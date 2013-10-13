@@ -1,7 +1,7 @@
 {
 	"name" : "apipemc/slim-skeleton",
 	"description" : "",
-	"version" : "0.1",
+	"version" : "dev",
 	"keywords" : ["slim", "skeleton", "idiorm", "view", "layout"],
 	"license" : "MIT",
 	"homepage" : "http://stickscode.com/",
@@ -17,11 +17,9 @@
 	"require" : {
 		"php" : ">= 5.3",
 		"slim/slim" : "2.*",
-		"j4mie/idiorm" : "1.*",
+		"swiftmailer/swiftmailer" : "dev-master",
+		"j4mie/idiorm" : "*",
+		"j4mie/paris"  : "*",
 		"petebrowne/slim-layout-view": "0.*"
-	},
-	"config": {
-		"preferred-install": "dev"
-	},
-	"minimum-stability": "dev"
+	}
 }

@@ -28,6 +28,14 @@ $app->configureMode('development', function () use ($app) {
 });
 
 /**
+ * Require all hooks
+ */
+$filename='';
+foreach (glob(dirname(__DIR__)."/hooks/*.php") as $filename) {
+    require $filename;
+}
+
+/**
  * Require all routes
  */
 $filename='';
