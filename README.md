@@ -13,8 +13,6 @@ Documentacion dependecias
 
 **PARIS :**  http://paris.readthedocs.org/en/latest/
 
-**ORM :**  http://idiorm.readthedocs.org/en/latest/
-
 **SWIFTMAILER :** http://swiftmailer.org/docs/introduction.html
 
 
