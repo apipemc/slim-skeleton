@@ -16,10 +16,10 @@
 	}],
 	"require" : {
 		"php" : ">= 5.3",
-		"slim/slim" : "2.3.*",
+		"slim/slim" : "2.*",
 		"swiftmailer/swiftmailer" : "dev-master",
 		"j4mie/idiorm" : "*",
 		"j4mie/paris"  : "*",
-		"petebrowne/slim-layout-view": "0.2.*"
+		"petebrowne/slim-layout-view": "0.*"
 	}
 }
