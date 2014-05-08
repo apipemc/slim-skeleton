@@ -7,11 +7,12 @@ Documentacion dependecias
 
 **SLIM FRAMEWORK :**  http://docs.slimframework.com/
 
-**LAYOUT :**  https://github.com/petebrowne/slim-layout-view/tree/v0.2.1
+**SLIM CONTROLLER:**  https://github.com/fortrabbit/slimcontroller
+
+**TWIG :**  http://twig.sensiolabs.org/documentation
+			https://github.com/codeguy/Slim-Views
 
 **ORM :**  http://idiorm.readthedocs.org/en/latest/
-
-**PARIS :**  http://paris.readthedocs.org/en/latest/
 
 **SWIFTMAILER :** http://swiftmailer.org/docs/introduction.html
 

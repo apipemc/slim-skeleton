@@ -16,10 +16,12 @@
 	}],
 	"require" : {
 		"php" : ">= 5.3",
-		"slim/slim" : "2.3.*",
-		"swiftmailer/swiftmailer" : "dev-master",
+		"slim/slim" : "2.*",
+		"slim/views": "0.*",
+		"slimcontroller/slimcontroller": "dev-master",
+        "twig/twig": "1.*",
 		"j4mie/idiorm" : "*",
-		"j4mie/paris"  : "*",
-		"petebrowne/slim-layout-view": "0.2.*"
+		"monolog/monolog": "1.*",
+		"swiftmailer/swiftmailer" : "dev-master"
 	}
 }

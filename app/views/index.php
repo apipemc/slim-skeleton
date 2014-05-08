@@ -1,1 +1,0 @@
-Welcome Skeleton Slim Framework
