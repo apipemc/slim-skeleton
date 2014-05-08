@@ -17,18 +17,11 @@
 	"require" : {
 		"php" : ">= 5.3",
 		"slim/slim" : "2.*",
-<<<<<<< HEAD
 		"slim/views": "0.*",
 		"slimcontroller/slimcontroller": "dev-master",
-        "twig/twig": "1.*",
+        	"twig/twig": "1.*",
 		"j4mie/idiorm" : "*",
 		"monolog/monolog": "1.*",
 		"swiftmailer/swiftmailer" : "dev-master"
-=======
-		"swiftmailer/swiftmailer" : "dev-master",
-		"j4mie/idiorm" : "*",
-		"j4mie/paris"  : "*",
-		"petebrowne/slim-layout-view": "0.*"
->>>>>>> 36fe887af27e4c92aa2378324b8e0f5f82704916
 	}
 }
