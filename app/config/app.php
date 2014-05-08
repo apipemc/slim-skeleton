@@ -5,7 +5,7 @@ session_start();
 
 $app = new \SlimController\Slim(array('templates.path'   => dirname(__DIR__).'/views/',
                             'cookies.secret_key'         => md5('appsecretkey'), 
-                            'controller.class_prefix'    =>'',
+                            'controller.class_prefix'    => '',
                             'controller.method_suffix'   => '',
                             'controller.template_suffix' => 'twig'
                      ));
@@ -63,7 +63,7 @@ foreach (glob(dirname(__DIR__)."/models/*.php") as $filename) {
 }
 
 /**
- * Require all routes
+ * Require all controllers
  */
 foreach (glob(dirname(__DIR__)."/controllers/*.php") as $filename) {    
     require $filename;
