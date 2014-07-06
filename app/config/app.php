@@ -7,8 +7,17 @@ $app = new \SlimController\Slim(array('templates.path'   => dirname(__DIR__).'/v
                             'cookies.secret_key'         => md5('appsecretkey'), 
                             'controller.class_prefix'    => '',
                             'controller.method_suffix'   => '',
-                            'controller.template_suffix' => 'twig'
+                            'controller.template_suffix' => 'twig',
+                            'mode' => 'production',
+                            'debug' => true
                      ));
+
+
+if ($app->config('debug') === true) {
+    ini_set('display_errors', 'On');
+    error_reporting(E_ALL); 
+    $app->add(new \Zeuxisoo\Whoops\Provider\Slim\WhoopsMiddleware);
+}
 
 /** Create monolog logger and store logger in container as singleton 
  * (Singleton resources retrieve the same log resource definition each time)

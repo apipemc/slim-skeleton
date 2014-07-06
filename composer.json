@@ -19,9 +19,11 @@
 		"slim/slim" : "2.*",
 		"slim/views": "0.*",
 		"slimcontroller/slimcontroller": "dev-master",
-        	"twig/twig": "1.*",
+        "twig/twig": "1.*",
 		"j4mie/idiorm" : "*",
 		"monolog/monolog": "1.*",
-		"swiftmailer/swiftmailer" : "dev-master"
+		"swiftmailer/swiftmailer" : "dev-master",
+		"filp/whoops": "1.*",
+		"zeuxisoo/slim-whoops": "0.*"
 	}
 }
