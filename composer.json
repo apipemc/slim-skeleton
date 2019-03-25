@@ -19,7 +19,7 @@
 		"slim/slim" : "2.*",
 		"slim/views": "0.*",
 		"slimcontroller/slimcontroller": "dev-master",
-        "twig/twig": "1.*",
+		"twig/twig": "1.36.0",
 		"j4mie/idiorm" : "*",
 		"monolog/monolog": "1.*",
 		"swiftmailer/swiftmailer" : "dev-master",
