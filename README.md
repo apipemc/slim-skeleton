@@ -24,6 +24,6 @@ Documentacion dependecias
 **SWIFTMAILER :** http://swiftmailer.org/docs/introduction.html
 
 
-##Create project composer
+## Create project composer
 
 `composer create-project apipemc/slim-skeleton --stability=dev project-name`
